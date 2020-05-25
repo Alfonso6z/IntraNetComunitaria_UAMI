@@ -22,6 +22,7 @@ $routes->setTranslateURIDashes(false);
 $routes->set404Override();
 $routes->setAutoRoute(true);
 
+
 /**
  * --------------------------------------------------------------------
  * Route Definitions
@@ -30,7 +31,16 @@ $routes->setAutoRoute(true);
 
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
-$routes->get('/', 'Home::index');
+$routes->get('/', 'Home::inicio');
+$routes->get('apps', 'Home::apps');
+$routes->get('aprendamos', 'Home::aprendamos');
+$routes->get('chat', 'Home::chat');
+$routes->get('fotos', 'Home::fotos');
+$routes->get('redsocial', 'Home::redsocial');
+$routes->get('archivos', 'Home::archivos');
+$routes->get('uamistream', 'Home::uamistream');
+$routes->get('videos', 'Home::videos');
+$routes->get('github', 'Home::github');
 
 /**
  * --------------------------------------------------------------------
