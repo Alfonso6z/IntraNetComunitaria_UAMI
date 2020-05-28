@@ -1,165 +1,101 @@
+<?php include 'assets/colors.php';
+
+$colorEncabezado =$colorP2."F0";
+
+?>
 <!DOCTYPE html>
 <html lang="es">
 <head>
       <meta charset="utf-8" name="viewport" content=" width = device-width, initial-scale=1,shrink-to-fit=no">
+      <link rel="stylesheet" href="<?php echo base_url()?>/assets/css/bootstrap.min.css">
+      <link rel="stylesheet" href="<?php echo base_url()?>/assets/css/styles_home.css">
       <title>IntraNet</title>
-  </head>
-<div id="carouselExampleFade" class="carousel slide carousel" data-ride="carousel" >
-      <div class="carousel-inner">
-        <!-- fotos carrusel -->
-        <div class="carousel-item active">
-          <div class="row row-cols-2 justify-content-center align-items-center">
-            <img class="d-block p-3 " src="http://redtampico.net/wp-content/uploads/2019/10/8.png" alt="First slide" style="height: 313px">
-            <img class="d-block p-3 " src="img/fotos/FotoGrupo.png" alt="First slide" style="height: 313px">
-          </div>
-        </div>
-        <div class="carousel-item">
-          <div class="row justify-content-center align-items-center">
-            <img class="d-block p-3" src="img/fotos/1.jpg" alt="Second slide" style="height: 313px">
-            <img class="d-block p-3" src="img/fotos/2.jpg" alt="Second slide" style="height: 313px">
-          </div>
-        </div>
-        <div class="carousel-item">
-          <div class="row justify-content-center align-items-center">
-            <img class="d-block p-3" src="img/fotos/3.jpg" alt="Third slide" style="height: 313px">
-            <img class="d-block p-3" src="img/fotos/4.jpg" alt="Third slide" style="height: 313px">
-          </div>
-        </div>
-        <div class="carousel-item">
-          <div class="row justify-content-center align-items-center">
-            <img class="d-block p-3" src="img/fotos/5.jpg" alt="Third slide" style="height: 313px">
-            <img class="d-block p-3" src="img/fotos/6.jpg" alt="Third slide" style="height: 313px">
-          </div>
-        </div>
-        <div class="carousel-item">
-          <div class="row justify-content-center align-items-center">
-            <img class="d-block p-3" src="img/fotos/7.jpg" alt="Third slide" style="height: 313px">
-            <img class="d-block p-3" src="img/fotos/8.jpg" alt="Third slide" style="height: 313px">
-          </div>
-        </div>
-      <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-      <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-      </a>
-    </div>
-    <div class="jumbotron m-3" style="color: white; background: #DEE6DF2f">
-      <h3 class=" text-break">Universidad Autónoma Metropilitana <br> Unidad Iztapalapa</h3>
-      <div class="dropdown-divider"></div>
-
-    </div>
-    <div class="jumbotron m-3" style="color: white; background: #DEE6DF2f">
-      <h2 class=" text-break" align="center">Recursos oficiales</h2>
-      <h4 class=" text-break">Gestores de contenido educativo</h4>
-      <p class="lead">
-          IntraNet Comunitaria Uam-I ofrece un ambiente con diversos recursos para el intercambio
-          y el aprendizaje colaborativo en red, apoyando a la Comunidad en general. A continuación, 
-          te ofrecemos herramientas y recursos, que te ayudarán en tu aprendizaje.
-      </p>
-      <hr class="my-5">
-      <div class="card-columns card-img-top">
-        <div class="card tarjeta" style="width: 18rem; background: #1F24205f">
-          <img src="https://4.bp.blogspot.com/-ilvTMC1_9GA/XIPI2ESrPkI/AAAAAAAAAJY/n7BzEJJH9ZwYutLf1EQH_EqNHzlf3ieZQCLcBGAs/s320/descarga.png" class="card-img-top" alt="... " style="height: 150px">
-            <div class="card-body">
-            <h5 align="center">AulaCBI Profesor</h5>
-            <p>Estimad@s profesor@s adscrit@s al Departamento de Ingeniería Eléctrica,En el siguiente enlace pueden consultar y descargar una serie de manuales y documentación sobre la plataforma Moodle, la cual se utiliza para la creación de aulas virtuales, como son VirtU@Mi y AulaCBI. Espero les sea de utilidad.</p>
-            <a class="urls" align="center" href="https://docs.moodle.org/all/es/Manuales_de_Moodle">• Manuales Moodle</a>
-            <div class="dropdown-divider"></div>
-            <h5 align="center">Aula Maestra</h5>
-            <p> Los invito a que conozcan y se registren al aula maestra,
-              <a class="urls" href="http://virtuami.izt.uam.mx/difusion/aula-docentes-uami.html">http://virtuami.izt.uam.mx/difusion/aula-docentes-uami.html</a>,
-              sigan los dos pasos del procedimiento. Con mucho gusto, los apoyo en caso de dudas</p>
-            </div>
-         </div>
-
-        <div class="card tarjeta" style="width: 18rem; background: #1F24205f">
-          <img src="https://arandasoft.com/wp-content/uploads/2016/04/licencias-de-software-gestion-de-activos.jpg" class="card-img-top" alt="..." style="height: 150px">
-            <div class="card-body">
-            <h5>Aplicaciones con licencia institucional</h5>
-            <p>El trámite de la sub–licencia personal es vía el correo electrónico a la dirección:
-            <a class="urls"  href="mailto:jibarram@correo.uam.mx">@escribeme...</a><br>
-            </p>
-            
-            <a class="urls"  href="https://help.turnitin.com/originality-check/turnitin-website/turnitin-home.htm">• Turnitin Originality Check</a><br>
-            <a class="urls"  href="https://www.gradescope.com/">• Gradescope </a><br>
-            <a class="urls"  href="http://www.ithenticate.com/">• iThenticate</a><br>
-            </div>
-            
-         </div>
-        <div class="card tarjeta" style="width: 18rem; background: #1F24205f">
-          <img src="https://itcognitive.com/wp-content/uploads/2017/11/licencia.jpg" class="card-img-top" alt="..." style="height: 150px">
-            <div class="card-body">
-            <h5>Aplicaciones con licencia unitaria</h5>
-            <p>El trámite de la sub–licencia personal es vía la Coordinación de Servicios de Cómputo.</p>
-          
-            <a class="urls" href="tel:5558044600">• Telefono UAM-I</a><br>
-            <p>Extensiones 4990, 4857-58</p>
-            <a class="urls" href="https://www.adobe.com/creativecloud.html">• Adobe Creative Cloud</a><br>
-            <a class="urls" href="https://products.office.com/en-us/microsoft-teams/group-chat-software">• Office365 con Teams</a><br>
-            <a class="urls" href="https://zoom.us/">• Zoom</a><br>
-            <a class="urls" href="https://www.wolfram.com/mathematica/">• Wolfram Mathematica</a><br>
-            <a class="urls" href="https://www.ibm.com/mx-es/analytics/spss-trials">• SPSS </a><br>
-            <a class="urls" href="https://www.ncss.com/">• NCSS </a>
-            </div>
-         </div>
-         
-        <div class="card tarjeta" style="width: 18rem; background: #1F24205f">
-          <img src="https://imagenes.universia.net/gc/net/images/educacion/t/ti/tie/tiene-formacion-distancia-misma-calidad-presencial.jpg" class="card-img-top" alt="..." style="height: 150px">
-            <div class="card-body">
-            <h5>Gestores de contenido educativo</h5>
-            <a class="urls" href="http://classroom.google.com">• Google Classroom</a><br>
-            <a class="urls" href="http://edu.google.com">• G Suite for Education</a>
-            </div>
-         </div>
-
-        <div class="card tarjeta" style="width: 18rem; background: #1F24205f">
-          <img src="https://www.evirtualplus.com/wp-content/uploads/2017/03/aprendizaje-por-competencias-aprendiendo-a-ser-1280x720.png" class="card-img-top" alt="..." style="height: 150px">
-            <div class="card-body">
-            <h5>Generadores de objetos de aprendizaje</h5>
-            <a class="urls"  href="https://exelearning.net/">• eXeLearning</a>
-            </div>
-         </div>
-
-         <div class="card tarjeta " style="width: 18rem; background: #1F24205f">
-          <img src="http://quimica.izt.uam.mx/quimica/wp-content/uploads/2015/06/logo_cbi-620x264.jpg" class="card-img-top" alt="... " style="height: 150px">
-            <div class="card-body">
-            <h5 align="center">AulaCBI</h5>
-            <a class="urls"  href="http://ixil.izt.uam.mx">• Servidor Moodle de la DCBI</a><br>
-            <a class="urls"  href="http://virtuami.izt.uam.mx/aulas/apresencial2/">• Moodle Virtu@mi</a><br>      
-            <div class="dropdown-divider"></div>
-            <h5 align="center">Plugins</h5>
-            <a class="urls"  href="http://www.geogebra.org">• Geogebra</a><br>
-            <a class="urls"  href="https://hotpot.uvic.ca/">• HotPotatoes</a><br>
-            <a class="urls" href="https://annotatepdf.appspot.com/#/open">• AnnotatePDF</a><br>
-            <a class="urls"  href="https://www.mathjax.org/">• MathJax</a><br>
-            <a class="urls"  href="https://www.tiny.cloud/">• TinyMCE</a>
-            </div>
-         </div>
-        <div class="card tarjeta" style="width: 18rem; background: #1F24205f">
-          <img src="https://moodle2017-18.ua.es/moodle/pluginfile.php/80621/mod_resource/content/7/redes/images/pic067.jpg" class="card-img-top" alt="..." style="height: 150px">
-            <div class="card-body">
-            <h5>Herramientas de trabajo colaborativo</h5>
-            <a class="urls" href="https://www.overleaf.com/">• Overleaf</a><br>
-            <a class="urls" href="http://drive.google.com">• Google Drive</a><br>
-            <a class="urls" href="https://cmap.ihmc.us/cmaptools/">• CMapTools</a>
-            </div>
-         </div>
-        <div class="card tarjeta" style="width: 18rem; background: #1F24205f">
-          <img src="https://www.educaciontrespuntocero.com/wp-content/uploads/2017/08/Evaluacion-696x364.jpg" class="card-img-top" alt="..." style="height: 150px">
-            <div class="card-body">
-            <h5>Herramientas para evaluación</h5>
-            <a class="urls" href="https://www.limesurvey.org/">• Limesurvey</a><br>
-            <a class="urls" href="https://www.thatquiz.org/es/">• Thatquiz</a><br>
-            <a class="urls" href="https://kahoot.it/">•  Kahoot</a>
-            </div>
-         </div>
-         
+</head>
+<body>
+<div class="container container-fluid" style="height: 3vh;"></div>
+<div class="rounded bordes" style="color: white; background:<?php echo $colorEncabezado?>">
+  <div class="row container-fluid justify-content-center rounded m-0 mt-2 mb-2" style="background:transparent">
+    <img class=" mt-2 m-0 ml-2"src="img/fotos/FotoGrupo.png" alt="foto grupo" style="height: 16vh">
+    <img class=" mt-2 m-0 ml-2"src="https://upload.wikimedia.org/wikipedia/commons/7/7c/UAMI_CBI_NITE.JPG" alt="foto grupo" style="height: 16vh">
+      <div class="row ml-3">
+        <img class="d-block mt-2" src="img/logo.png" alt="" style="height: 5rem;">
+        <img class="d-block mt-4" src="img/letrasIntra.png" alt="" style="height: 3rem">
       </div>
-     
+      <div class="row ml-5">
+        <div class="col">
+          <img class="d-block ml-3 mt-4" src="img/UAM.png" alt="uam" style="height: 9vh">
+          <h6>Casa abierta al tiempo</h6>   
+        </div>  
+        <h6 class="mt-4 ml-2">Universida Autonoma Metropolitana Iztapalapa<br>Departamento de Ingeniería Eléctrica
+        <br>Área de redes y Telecomunicaciones
+        </h6>
+      </div>
     </div>
+</div> 
+<div class="container container-fluid" style="height: 3vh;"></div>
+      <div class="row row-cols-2 ml-0 mb-2">
+        <div class="textIntro container rounded border" style="background: #373A3BD8;"  >
+          <div class="container border rounded mt-3" style="background: <?php echo $colorP2?>D8">
+            <p class="h3 blockquote text-center">¿Que es una Intranet Comunitaria UAM-I?</p>
+          </div>
+          <p class="text-justify lead textIntro font-italic font-weight-normal">
+          La Intranet Comunitaria UAMI, es una idea que surge a partir de las necesidades que se tienen de conectividad no solo en la universidad y sus alrededores, sino en todo México; en este caso, la falta de conexión adecuada en zonas marginadas y comunidades indígenas provoca que existan muchas personas que no cuentan con el recurso de Internet por falta de conexión y que hay falta de interés o pocos recursos por parte de las autoridades y empresas para conectar estas zonas. 
+            <div class="container">
+                <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#demo">Leer mas</button>
+                <div id="demo" class="collapse">
+                Basado en esta temática se propone la idea de la IntraNet como unas solución para mitigar estas necesidades. Su principal objetivo es llevar contenido digital para la comunidad UAM y a los alumnos que se encuentran viviendo alrededor de la unidad universitaria, ya que muchos ellos no cuentan con los recursos suficientes para tener acceso a Internet, proporcionando también otras formas de conexión desahogando el ancho de banda que existe de forma limitada.
+                <ul>
+                  <li type="disc">Red inalámbrica de contenido libre</li>
+                  <li type="disc">Apoya a las comunidades o regiones sin acceso a Internet</li>
+                  <li type="disc">Permite el acceso a la información y servicios similares a los de Internet de manera gratuita</li>
+                </ul>
+                  Al gunas de las motivaciones de este proyecto son las siguientes:
+                <ul>
+                  <li>Compartir contenido en zonas donde no hay Internet</li>
+                  <li>Creación de aplicaciones propias, así como de hardware y software libre</li>
+                  <li>Hacer investigación</li>
+                  <li>Capacitación de Recursos Humanos</li>                  
+                </ul>
+                </div>
+            </div>
+          </p>
+        </div>
+        <div class="container rounded m-0">
+          <div class="embed-responsive embed-responsive-16by9 rounded">
+          <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zdikOS9Er7s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </div>  
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="..." class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="..." class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="..." class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+
+
 
   </body>
 </html>

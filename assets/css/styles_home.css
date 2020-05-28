@@ -1,5 +1,14 @@
 :root {
-    --bg-color: #0EAB51;
+    --colorP: #109148;
+    --colorP1: #047636;
+    --colorP2: #005A27;
+    --colorp1: #2BA460;
+    --colorp2: #4BB579;
+    --colorS: #145D81;
+    --colorS1: #094A69;
+    --colorS2: #033750;
+    --colors1: #2B7091;
+    --colors2: #4884A1;
     --hoverl-color: #53fa77;
     --bg-color2: #1f412713;
     --icon-colorF: #4267B2;
@@ -9,29 +18,25 @@
     --icon-colorY: #FF0000;
 }
 
+.textIntro {
+    font-size: 1rem;
+    color: white;
+}
+
 .iconS:hover {
     color: transparent !important;
+}
+
+.imagenBack {
+    background-image: url(bG.png);
+    background-color: var(--colorS2);
+    background-attachment: fixed;
+    overflow: scroll;
 }
 
 .hijo {
     margin-left: 5px;
     margin-right: 5px;
-}
-
-.iconP {
-    position: absolute;
-    left: 20px;
-    top: 145px;
-    z-index: 1;
-}
-
-.encabezado {
-    background: linear-gradient(var(--bg-color), var(--bg-color2)) !important;
-}
-
-.imgH {
-    width: 500px !important;
-    height: 166.11px !important;
 }
 
 .iconC {
@@ -72,7 +77,7 @@
 
 .menu:hover {
     color: white !important;
-    background-color: var(--bg-color) !important;
+    background-color: var(--colorP) !important;
 }
 
 .linkpage:hover {
@@ -83,7 +88,7 @@
 }
 
 .urls {
-    color: var(--bg-color);
+    color: var(--colorP);
 }
 
 .urls:hover {
