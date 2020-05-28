@@ -21,7 +21,7 @@ class App extends BaseConfig
 	| environments.
 	|
 	*/
-	public $baseURL = 'http://localhost/IntraNertComunitaria_UAMI/';
+	public $baseURL = 'http://localhost/IntraNetComunitaria_UAMI/';
 
 	/*
 	|--------------------------------------------------------------------------
