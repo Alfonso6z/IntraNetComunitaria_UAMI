@@ -41,6 +41,8 @@ $routes->get('archivos', 'Home::archivos');
 $routes->get('uamistream', 'Home::uamistream');
 $routes->get('videos', 'Home::videos');
 $routes->get('github', 'Home::github');
+$routes->get('recursosEducativos','Home::recursosEducativos');
+$routes->get('colaboradores','Home::colaboradores');
 
 /**
  * --------------------------------------------------------------------

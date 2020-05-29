@@ -29,7 +29,12 @@ class Home extends BaseController
 	public function github(){
 		return view('home_header').view("github/github_page").view("home_foter");
 	}
-
+	public function recursosEducativos(){
+		return view('home_header').view("recursosEducativos/recursosEducativos_page").view("home_foter");
+	}
+	public function colaboradores(){
+		return view('home_header').view("colaboradores/colaboradores_page").view("home_foter");
+	}
 	//--------------------------------------------------------------------
 
 }
