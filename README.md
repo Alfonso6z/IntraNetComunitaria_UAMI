@@ -2,7 +2,7 @@
     <b>Importante: el proyecto aún está en desarrollo</b>
 </div>
 
-![Intranet Comunitaria UAMI](/img/logo.png)
+![Intranet Comunitaria UAMI](/img/logoMark.png)
 
 # Página Web
 
