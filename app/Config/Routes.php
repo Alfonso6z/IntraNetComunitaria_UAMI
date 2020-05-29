@@ -37,7 +37,7 @@ $routes->get('aprendamos', 'Home::aprendamos');
 $routes->get('chat', 'Home::chat');
 $routes->get('fotos', 'Home::fotos');
 $routes->get('redsocial', 'Home::redsocial');
-$routes->get('archivos', 'Home::archivos');
+$routes->get('documentos', 'Home::documentos');
 $routes->get('uamistream', 'Home::uamistream');
 $routes->get('videos', 'Home::videos');
 $routes->get('github', 'Home::github');

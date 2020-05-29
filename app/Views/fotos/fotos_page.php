@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Galeria de Fotos</title>
     <link rel="stylesheet" href="assets/css/styles_fotos.css">
+    
 </head>
 
 <body>
