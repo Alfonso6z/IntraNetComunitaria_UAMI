@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.archivos {
+    color: white;
+    font-size: large;
+}
+
+.archivos a {
+    color: white;
+}
+
+.archivos li {
+    color: white;
+}
+
+.archivos h1 {
+    color: white;
+}

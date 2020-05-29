@@ -1,0 +1,102 @@
+:root {
+    --colorP: #109148;
+    --colorP1: #047636;
+    --colorP2: #005A27;
+    --colorp1: #2BA460;
+    --colorp2: #4BB579;
+    --colorS: #145D81;
+    --colorS1: #094A69;
+    --colorS2: #033750;
+    --colors1: #2B7091;
+    --colors2: #4884A1;
+    --hoverl-color: #53fa77;
+    --bg-color2: #1f412713;
+    --icon-colorF: #4267B2;
+    --icon-colorT: #1DA1F2;
+    --icon-colorI: #D42B81;
+    --icon-colorIs: #F99B4A;
+    --icon-colorY: #FF0000;
+}
+
+.textIntro {
+    font-size: 1rem;
+    color: white;
+}
+
+.iconS:hover {
+    color: transparent !important;
+}
+
+.imagenBack {
+    background-image: url(bG.png);
+    background-color: var(--colorS2);
+    background-attachment: fixed;
+    overflow: scroll;
+}
+
+.hijo {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.iconC {
+    color: white !important;
+}
+
+.face:hover {
+    color: var(--icon-colorF) !important;
+    background-color: white;
+    /* width: 20px; */
+    height: 17.5px;
+    border-radius: 50px;
+}
+
+.tw:hover {
+    color: var(--icon-colorT) !important;
+    background-color: white !important;
+}
+
+.insta:hover {
+    background: linear-gradient( var(--icon-colorI), var(--icon-colorIs)) !important;
+    border-radius: 5px;
+}
+
+.you:hover {
+    color: var(--icon-colorY) !important;
+    background-color: white !important;
+    height: 15px;
+    width: 15px;
+    /* border-bottom-right-radius: 50px; */
+    /* border-bottom-left-radius: 50px; */
+    /* border-top-left-radius: 60px; */
+    border-radius: 20px;
+    background-position-x: center;
+    background-position: center;
+    background-position-y: center;
+}
+
+.menu:hover {
+    color: white !important;
+    background-color: var(--colorP) !important;
+}
+
+.linkpage:hover {
+    /* color: var(--bg-color)!important; */
+    color: var(--hoverl-color) !important;
+    /* font-weight: bold !important; */
+    /* font-size: 20px; */
+}
+
+.urls {
+    color: var(--colorP);
+}
+
+.urls:hover {
+    color: var(--hoverl-color);
+}
+
+.tarjeta {
+    -webkit-box-shadow: 0px 0px 24px -5px rgba(20, 20, 20, 1);
+    -moz-box-shadow: 0px 0px 24px -5px rgba(20, 20, 20, 1);
+    box-shadow: 0px 0px 24px -5px rgba(20, 20, 20, 1);
+}

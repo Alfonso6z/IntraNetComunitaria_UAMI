@@ -1,0 +1,50 @@
+#particles-js {
+    background: rgba(0, 0, 0, 0.5);
+    height: 300vw;
+}
+
+.ancho-letras {
+    top: 300px;
+    width: 98.5%;
+    position: absolute;
+    text-align: center;
+    background-color: transparent;
+}
+
+.letras-slider {
+    width: 80%;
+    margin: auto;
+}
+
+.letras-slider h1 {
+    color: #fff;
+    font-family: Tahoma;
+    font-size: 5vw;
+}
+
+.letras-slider p {
+    color: #fff;
+    font-size: 1rem;
+    font-family: Tahoma;
+    padding-top: 1vw;
+}
+
+.rowImagenes {
+    position: absolute;
+    top: 500px;
+    width: 95%;
+    text-align: start;
+    background: transparent;
+}
+
+.rowImagenes h5 {
+    color: #fff;
+}
+
+.rowImagenes p {
+    color: #fff;
+}
+
+.rowImagenes img {
+    width: 600px;
+}
