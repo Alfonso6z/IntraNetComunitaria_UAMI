@@ -1,12 +1,11 @@
 <?php
 $home          = base_url();
-$chat          = base_url()."/chat";
 $fotos         = base_url()."/fotos";
 $redsocial     = base_url()."//redsocial";
-$archivos      = base_url()."/archivos";
+$documentos      = base_url()."/documentos";
 $uamistream    = base_url()."/uamistream";
 $videos        = base_url()."/videos";
-$github        = base_url()."/github";
+$github        = "https://github.com/IntranetComunitariaUAMI";
 $rE            = base_url()."/recursosEducativos";
 $colaboradores = base_url()."/colaboradores";
 include 'assets/colors.php';/* Paleta de colores */
@@ -18,7 +17,7 @@ $colorNav = $colorP2."D0";
 
 <head>
   <meta charset="utf-8" name="viewport" content=" width = device-width, initial-scale=1,shrink-to-fit=no">
-  <link rel="shortcut icon" href="img/pan.ico" type="image/x-icon">
+  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
   <link rel="stylesheet" href="<?php echo base_url()?>/assets/css/bootstrap.min.css">
   <link rel="stylesheet" href="<?php echo base_url()?>/assets/css/styles_home.css">
 </head>
@@ -54,7 +53,7 @@ $colorNav = $colorP2."D0";
               class="badge badge-secondary" style="background: <?php echo $colors1?>">Nuevo</span></a>
         </li>
         <li class="nav-item ml-2">
-          <a class="nav-link linkpage text-white" href=<?php echo $archivos?>>Archivos</a>
+          <a class="nav-link linkpage text-white" href=<?php echo $documentos?>>Documentos</a>
         </li>
         <li class="nav-item dropdown ml-2">
           <a class="nav-link linkpage text-white dropdown-toggle" href="#" id="navbarDropdown" role="button"
@@ -62,7 +61,6 @@ $colorNav = $colorP2."D0";
             Aplicaciones
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item menu" href=<?php echo $chat?>>Chat</a>
             <a class="dropdown-item menu" href=<?php echo $redsocial?>>Red Social</a>
             <div class="dropdown-divider"></div>
             <a class="dropdown-item menu" href="#">Apps</a>

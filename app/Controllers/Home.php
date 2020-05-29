@@ -11,11 +11,8 @@ class Home extends BaseController
 	public function videos(){
 		return view('home_header').view("videos/videos_page").view("home_foter");
 	}
-	public function archivos(){
-		return view('home_header').view("archivos/archivos_page").view("home_foter");
-	}
-	public function chat(){
-		return view('home_header').view("chat/chat_page").view("home_foter");
+	public function documentos(){
+		return view('home_header').view("documentos/documentos_page").view("home_foter");
 	}
 	public function apps(){
 		return view('home_header').view("apps/apps_page").view("home_foter");

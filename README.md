@@ -1,59 +1,74 @@
-# CodeIgniter 4 Framework
+<div class="container" style="background:rgba(255, 0, 64,0.5)">
+    <b>Importante: el proyecto aún está en desarrollo</b>
+</div>
 
-## What is CodeIgniter?
+![Intranet Comunitaria UAMI](/img/logo.png)
 
-CodeIgniter is a PHP full-stack web framework that is light, fast, flexible, and secure. 
-More information can be found at the [official site](http://codeigniter.com).
+# Página Web
 
-This repository holds the distributable version of the framework,
-including the user guide. It has been built from the 
-[development repository](https://github.com/codeigniter4/CodeIgniter4).
+En este repositorio puedes encontrar el código fuente (multimedia y scripts) del sitio web **IntraNetUAMI**, el cual fue desarrollado principalmente para el proyecto **Intranet Comunitaria**
 
-**This is pre-release code and should not be used in production sites.**
+* [IntranetUAMI](<!-- qui un link principal-->) - Para saber mas entrar a este link  -->
 
-More information about the plans for version 4 can be found in [the announcement](http://forum.codeigniter.com/thread-62615.html) on the forums.
+> © Universidada Autonoma Metropolitana Iztapalapa
+<!--  -->
+___
+## Comenzando 🚀
 
-The user guide corresponding to this version of the framework can be found
-[here](https://codeigniter4.github.io/userguide/). 
+_Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas._
+<!-- EL framework PHP utilizado para este proyecto es [Codeigniter 4](https://codeigniter.com/)  -->
+
+### Pre-requisitos 📋
+
+* [Codeigniter 4](https://codeigniter.com/)   se ejecuta en el servidor web Apache y escrito en lenguaje PHP, por lo que tendrás que instalar Apache y PHP en tu sistema.  
+
+* [Xampp](https://www.apachefriends.org/es/index.html)  es un servidor independiente de plataforma de código libre. Te permite instalar de forma sencilla Apache en tu propio ordenador, sin importar tu sistema operativo, además es una herramienta de desarrollo que te permite probar tu trabajo (páginas web o programación por ejemplo) en tu propio ordenador sin necesidad de tener que accesar a internet.
 
 
-## Important Change with index.php
+### Instalación 🔧
 
-`index.php` is no longer in the root of the project! It has been moved inside the *public* folder,
-for better security and separation of components.
+_La instalción varía dependiendo el SO en que se quiera ejecutar, se explicará una serie de ejemplos_
 
-This means that you should configure your web server to "point" to your project's *public* folder, and
-not to the project root. A better practice would be to configure a virtual host to point there. A poor practice would be to point your web server to the project root and expect to enter *public/...*, as the rest of your logic and the
-framework are exposed.
+#### Windos
+Carpeta donde se tiene que clonar ó colocar la carpeta del proyecto una vez instalado xampp
 
-**Please** read the user guide for a better explanation of how CI4 works!
-The user guide updating and deployment is a bit awkward at the moment, but we are working on it!
+```
+C:\xampp\htdocs
+```
 
-## Repository Management
+#### Linux lampp
+```
+/opt/lampp/htdocs
+```
+#### Linux Apache2
 
-We use Github issues, in our main repository, to track **BUGS** and to track approved **DEVELOPMENT** work packages.
-We use our [forum](http://forum.codeigniter.com) to provide SUPPORT and to discuss
-FEATURE REQUESTS.
+```
+/var/www/html
+```
 
-This repository is a "distribution" one, built by our release preparation script. 
-Problems with it can be raised on our forum, or as issues in the main repository.
+_Las rutas pueden ser diferentes dependiendo de su instalción, distro (linux) o SO, la carpeta del proyecto tendrá que estar en su local host_
 
-## Contributing
+### _Es importante recalcar que en cualquier distribución de linux hay que otorgar los permisos necesarios para su ejecución_
 
-We welcome contributions from the community.
 
-Please read the [*Contributing to CodeIgniter*](https://github.com/codeigniter4/CodeIgniter4/blob/develop/contributing.md) section in the development repository.
 
-## Server Requirements
+## Construido con 🛠️
 
-PHP version 7.2 or higher is required, with the following extensions installed: 
+_Las herramientas utilizadas para este proyecto son las siguintes_
 
-- [intl](http://php.net/manual/en/intl.requirements.php)
-- [libcurl](http://php.net/manual/en/curl.requirements.php) if you plan to use the HTTP\CURLRequest library
+* [CodeIgniter 4](https://codeigniter.com/) - El framework web usado
+* [Bootstrap](https://getbootstrap.com/) - Bootstrap frameworks CSS
+* [JQuery](https://jquery.com/) -  librería de JavaScript
+* [ParticlesApp](https://vincentgarreau.com/particles.js/) - Particulas en Uamistream
 
-Additionally, make sure that the following extensions are enabled in your PHP:
 
-- json (enabled by default - don't turn it off)
-- [mbstring](http://php.net/manual/en/mbstring.installation.php)
-- [mysqlnd](http://php.net/manual/en/mysqlnd.install.php)
-- xml (enabled by default - don't turn it off)
+## Colaboradores ✒️
+
+* **[Alfonso González Zempoalteca](https://github.com/Alfonso6z)** - *Trabajo Inicial*
+
+### contribuyentes:
+* Aún hay que aportar mucho a este proyecto, se mencionará a cada uno de los desarrolladores que contribuyan con nuevas funciones o que las complementen.
+
+## Licencia 📄
+
+Este proyecto está bajo la Licencia MTI - mira el archivo [license](license.md) para detalles.
