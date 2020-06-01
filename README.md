@@ -40,10 +40,18 @@ C:\xampp\htdocs
 ```
 /opt/lampp/htdocs
 ```
+Colocar los permisos necesarios para su visualización y ejecución del sitio web 
+```bash
+chmod 777 IntraNetComunitaria_UAMI/* && chmod 777 IntraNetComunitaria_UAMI/writable/* && chmod 777 IntraNetComunitaria_UAMI/writable/cache/*
+```
 #### Linux Apache2
 
 ```
 /var/www/html
+```
+Colocar los permisos necesarios para su visualización y ejecución del sitio web 
+```bash
+chmod 777 IntraNetComunitaria_UAMI/* && chmod 777 IntraNetComunitaria_UAMI/writable/* && chmod 777 IntraNetComunitaria_UAMI/writable/cache/*
 ```
 
 
