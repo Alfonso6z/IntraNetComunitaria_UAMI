@@ -74,10 +74,11 @@ _Las herramientas utilizadas para este proyecto son las siguintes_
 ## Colaboradores ✒️
 
 * **[Alfonso González Zempoalteca](https://github.com/Alfonso6z)** - *Trabajo Inicial*
+* **[Tonalli Contreras Sandoval](https://github.com/tonacs)** - *Montar sitio en docker*
 
 ### contribuyentes:
 * Aún hay que aportar mucho a este proyecto, se mencionará a cada uno de los desarrolladores que contribuyan con nuevas funciones o que las complementen.
 
 ## Licencia 📄
 
-Este proyecto está bajo la Licencia MTI - mira el archivo [license](license.md) para detalles.
+Este proyecto está bajo la Licencia MIT - mira el archivo [license](license.md) para detalles.

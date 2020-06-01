@@ -1,105 +1,63 @@
-# Título del Proyecto
+# Montar sitio web IntraNetComunitaria_UAMI en Docker
 
-_Acá va un párrafo que describa lo que es el proyecto_
 
-## Comenzando 🚀
 
-_Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas._
+## Comenzando 
 
-Mira **Deployment** para conocer como desplegar el proyecto.
+_Estas instrucciones te permitirán correr en un contenedor de Docker una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas._
 
 
 ### Pre-requisitos 📋
 
-_Que cosas necesitas para instalar el software y como instalarlas_
+_Tener instalado docker en su equipo_
+_Si usted no tiene docker en su equipo, siga las siguientes instrucciones_
+[Aqui](https://docs.docker.com/docker-for-windows/install/)
+
+### Instalación :white_check_mark:
+
+
+1._Crear una carpeta nueva  y colocarse en ella por medio de la terminal_
+
+2._Colocar la siguiente instrucción_
+
+
+
+```bash
+docker run -dti -p 8080:80 --name intranetuami -v "$PWD":/opt/lampp/htdocs cswl/xampp
 
 ```
-Da un ejemplo
+
+_En donde:_
+
+* -d inicia el contenedor en segundo plano
+* t nos permite utilizar la terminal dentro del contenedor
+* i parámetro para activar la entrada de texto estándar para poder escribir 
+* --name parámetro para darle un nombre al contenedor, puede ponerle cualquiera, en este caso se colocó intranetuami
+* -v Indica el parámetro de volúmen en donde la carpeta en el contenedor `/opt/lampp/htdocs` estará mapeada a la carpeta actual donde se ejecutan las instrucciones `"$PWD"`
+* cswl/xampp es el nombre de la imagen con la cuál se creará el contenedor.
+
+ 3._Si el proceso fue realizado con éxito y sin errores, obtendremos un ID_
+
+ 4._Sin salirse de la ventana actual de la terminal se descargará el repositorio del proyecto con la siguiente instrucción_
+ ```bash
+ git clone https://github.com/Alfonso6z/IntraNetComunitaria_UAMI.git
+
+ ```
+5._Por último, se le darán todos los permisos a las carpetas y subcarpetas del proyecto para su ejecucación y visualización_
+```bash
+chmod 777 IntraNetComunitaria_UAMI/* && chmod 777 IntraNetComunitaria_UAMI/writable/* && chmod 777 IntraNetComunitaria_UAMI/writable/cache/*
 ```
 
-### Instalación 🔧
+_Si todo fue realizado con éxito, ir al navegador y colocar en la barra de direcciones_`localhost:8080/IntraNetComunitaria_UAMI` _y se podrá visualizar el contenido del sitio web_
 
-_Una serie de ejemplos paso a paso que te dice lo que debes ejecutar para tener un entorno de desarrollo ejecutandose_
 
-_Dí cómo será ese paso_
 
-```
-Da un ejemplo
-```
-
-_Y repite_
-
-```
-hasta finalizar
-```
-
-_Finaliza con un ejemplo de cómo obtener datos del sistema o como usarlos para una pequeña demo_
-
-## Ejecutando las pruebas ⚙️
-
-_Explica como ejecutar las pruebas automatizadas para este sistema_
-
-### Analice las pruebas end-to-end 🔩
-
-_Explica que verifican estas pruebas y por qué_
-
-```
-Da un ejemplo
-```
-
-### Y las pruebas de estilo de codificación ⌨️
-
-_Explica que verifican estas pruebas y por qué_
-
-```
-Da un ejemplo
-```
-
-## Despliegue 📦
-
-_Agrega notas adicionales sobre como hacer deploy_
 
 ## Construido con 🛠️
 
-_Menciona las herramientas que utilizaste para crear tu proyecto_
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - El framework web usado
-* [Maven](https://maven.apache.org/) - Manejador de dependencias
-* [ROME](https://rometools.github.io/rome/) - Usado para generar RSS
-
-## Contribuyendo 🖇️
-
-Por favor lee el [CONTRIBUTING.md](https://gist.github.com/villanuevand/xxxxxx) para detalles de nuestro código de conducta, y el proceso para enviarnos pull requests.
-
-## Wiki 📖
-
-Puedes encontrar mucho más de cómo utilizar este proyecto en nuestra [Wiki](https://github.com/tu/proyecto/wiki)
-
-## Versionado 📌
-
-Usamos [SemVer](http://semver.org/) para el versionado. Para todas las versiones disponibles, mira los [tags en este repositorio](https://github.com/tu/proyecto/tags).
-
-## Autores ✒️
-
-_Menciona a todos aquellos que ayudaron a levantar el proyecto desde sus inicios_
-
-* **Andrés Villanueva** - *Trabajo Inicial* - [villanuevand](https://github.com/villanuevand)
-* **Fulanito Detal** - *Documentación* - [fulanitodetal](#fulanito-de-tal)
-
-También puedes mirar la lista de todos los [contribuyentes](https://github.com/your/project/contributors) quíenes han participado en este proyecto. 
-
-## Licencia 📄
-
-Este proyecto está bajo la Licencia (Tu Licencia) - mira el archivo [LICENSE.md](LICENSE.md) para detalles
-
-## Expresiones de Gratitud 🎁
-
-* Comenta a otros sobre este proyecto 📢
-* Invita una cerveza 🍺 o un café ☕ a alguien del equipo. 
-* Da las gracias públicamente 🤓.
-* etc.
-
-
+* [Imagen de xampp utilizada en docker](https://hub.docker.com/r/cswl/xampp) - cswl/xampp
+* [Docker](https://docs.docker.com/docker-for-windows/install/) - Docker
+* [Sitio web](https://github.com/Alfonso6z/IntraNetComunitaria_UAMI.git) - IntraNetComunitaria_UAMI 
 
 ---
-⌨️ con ❤️ por [Villanuevand](https://github.com/Villanuevand) 😊
+⌨️ con ❤️ por [Tonalli C.S](https://github.com/tonacs) 😊
