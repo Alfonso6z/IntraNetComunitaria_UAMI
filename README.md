@@ -46,6 +46,15 @@ C:\xampp\htdocs
 /var/www/html
 ```
 
+
+#### Docker
+
+Si deseas montar el proyecto en un contendor Docker seguir las siguientes instrucciones: 
+[Instrucciones Docker](docker.md)
+
+
+
+
 _Las rutas pueden ser diferentes dependiendo de su instalción, distro (linux) o SO, la carpeta del proyecto tendrá que estar en su local host_
 
 ### _Es importante recalcar que en cualquier distribución de linux hay que otorgar los permisos necesarios para su ejecución_
