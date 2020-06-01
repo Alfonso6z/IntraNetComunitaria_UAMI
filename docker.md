@@ -45,7 +45,7 @@ En donde:
  git clone https://github.com/Alfonso6z/IntraNetComunitaria_UAMI.git
 
  ```
-5.Por último, se le darán todos los permisos a las carpetas y subcarpetas del proyecto para su ejecucación y visualización
+5.Por último, se le darán todos los permisos a las carpetas y subcarpetas del proyecto para su ejecución y visualización
 ```bash
 chmod 777 IntraNetComunitaria_UAMI/* && chmod 777 IntraNetComunitaria_UAMI/writable/* && chmod 777 IntraNetComunitaria_UAMI/writable/cache/*
 ```
