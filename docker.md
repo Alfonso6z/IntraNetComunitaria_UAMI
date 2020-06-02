@@ -28,7 +28,7 @@ Si usted no tiene docker en su equipo, siga las siguientes instrucciones
  _Tener instalado git en su sistema para realizar el paso anterior_
 
 
-2.Colocar la siguiente instrucción
+3.Colocar la siguiente instrucción
 ```bash
 docker run -dti -p 8080:80 --name intranetuami -v "$PWD":/opt/lampp/htdocs cswl/xampp
 
@@ -44,27 +44,27 @@ En donde:
 * cswl/xampp es el nombre de la imagen con la cuál se creará el contenedor
 * -p mapea el puerto 80 de docker al puerto 8080 de nuestro equipo
 
-3.Si el proceso fue realizado con éxito y sin errores, obtendremos un ID
+4.Si el proceso fue realizado con éxito y sin errores, obtendremos un ID
 
-4.Obetener los primeros 3 caracteres del contendor que está corriendo mediante la siguiente instrucción
+5.Obetener los primeros 3 caracteres del contendor que está corriendo mediante la siguiente instrucción
 ```bash
  docker ps
 ```
 
-5.Entrar por línea de comandos a la terminal del contenedor con la siguiente instrucción
+6.Entrar por línea de comandos a la terminal del contenedor con la siguiente instrucción
 ```bash
  docker exec -it 123 bash
  ``` 
  En donde 123 son los primeros 3 caracteres del ID del contenedor que está corriendo.
 
-6.Posicionarse en la carpeta /opt/lampp/htdocs
+7.Posicionarse en la carpeta /opt/lampp/htdocs
 ```bash
  cd opt/lampp/docs
 ```
 
 
 
-6.Por último, se le darán todos los permisos a las carpetas y subcarpetas del proyecto para su ejecución y visualización
+8.Por último, se le darán todos los permisos a las carpetas y subcarpetas del proyecto para su ejecución y visualización
 ```bash
 chmod 777 IntraNetComunitaria_UAMI/* && chmod 777 IntraNetComunitaria_UAMI/writable/* && chmod 777 IntraNetComunitaria_UAMI/writable/cache/*
 ```
