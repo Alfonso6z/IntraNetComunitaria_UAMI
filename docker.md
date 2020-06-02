@@ -20,10 +20,15 @@ Si usted no tiene docker en su equipo, siga las siguientes instrucciones
 
 1.Crear una carpeta nueva  y colocarse en ella por medio de la terminal
 
+2.Sin salirse de la ventana actual de la terminal se descargará el repositorio del proyecto con la siguiente instrucción
+ ```bash
+ git clone https://github.com/Alfonso6z/IntraNetComunitaria_UAMI.git
+
+ ```
+ _Tener instalado git en su sistema para realizar el paso anterior_
+
+
 2.Colocar la siguiente instrucción
-
-
-
 ```bash
 docker run -dti -p 8080:80 --name intranetuami -v "$PWD":/opt/lampp/htdocs cswl/xampp
 
@@ -37,15 +42,29 @@ En donde:
 * --name parámetro para darle un nombre al contenedor, puede ponerle cualquiera, en este caso se colocó intranetuami
 * -v Indica el parámetro de volúmen en donde la carpeta en el contenedor `/opt/lampp/htdocs` estará mapeada a la carpeta actual donde se ejecutan las instrucciones `"$PWD"`
 * cswl/xampp es el nombre de la imagen con la cuál se creará el contenedor
+* -p mapea el puerto 80 de docker al puerto 8080 de nuestro equipo
 
 3.Si el proceso fue realizado con éxito y sin errores, obtendremos un ID
 
-4.Sin salirse de la ventana actual de la terminal se descargará el repositorio del proyecto con la siguiente instrucción
- ```bash
- git clone https://github.com/Alfonso6z/IntraNetComunitaria_UAMI.git
+4.Obetener los primeros 3 caracteres del contendor que está corriendo mediante la siguiente instrucción
+```bash
+ docker ps
+```
 
- ```
-5.Por último, se le darán todos los permisos a las carpetas y subcarpetas del proyecto para su ejecución y visualización
+5.Entrar por línea de comandos a la terminal del contenedor con la siguiente instrucción
+```bash
+ docker exec -it 123 bash
+ ``` 
+ En donde 123 son los primeros 3 caracteres del ID del contenedor que está corriendo.
+
+6.Posicionarse en la carpeta /opt/lampp/htdocs
+```bash
+ cd opt/lampp/docs
+```
+
+
+
+6.Por último, se le darán todos los permisos a las carpetas y subcarpetas del proyecto para su ejecución y visualización
 ```bash
 chmod 777 IntraNetComunitaria_UAMI/* && chmod 777 IntraNetComunitaria_UAMI/writable/* && chmod 777 IntraNetComunitaria_UAMI/writable/cache/*
 ```
