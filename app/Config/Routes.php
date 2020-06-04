@@ -32,17 +32,17 @@ $routes->setAutoRoute(true);
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
 $routes->get('/', 'Home::inicio');
+// $routes->get('aprendamos', 'Home::aprendamos');
+// $routes->get('chat', 'Home::chat');
 $routes->get('apps', 'Home::apps');
-$routes->get('aprendamos', 'Home::aprendamos');
-$routes->get('chat', 'Home::chat');
-$routes->get('fotos', 'Home::fotos');
-$routes->get('redsocial', 'Home::redsocial');
+$routes->get('colaboradores','Home::colaboradores');
 $routes->get('documentos', 'Home::documentos');
-$routes->get('uamistream', 'Home::uamistream');
-$routes->get('videos', 'Home::videos');
+$routes->get('fotos', 'Home::fotos');
 $routes->get('github', 'Home::github');
 $routes->get('recursosEducativos','Home::recursosEducativos');
-$routes->get('colaboradores','Home::colaboradores');
+$routes->get('redsocial', 'Home::redsocial');
+$routes->get('uamistream', 'Home::uamistream');
+$routes->get('videos', 'Home::videos');
 
 /**
  * --------------------------------------------------------------------

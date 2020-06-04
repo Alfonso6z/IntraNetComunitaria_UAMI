@@ -4,11 +4,11 @@
       <meta charset="utf-8" name="viewport" content=" width = device-width, initial-scale=1,shrink-to-fit=no">
       <link rel="shortcut icon" href="img/pan40.ico" type="image/x-icon">
       <title>UamiStream</title>
-      <link rel="stylesheet" href="<?php echo base_url()?>/assets/css/bootstrap.min.css">
-      <link rel="stylesheet" href="<?php echo base_url()?>/assets/css/styles_uamistream.css?v2">
-      <link rel="stylesheet" href="<?php echo base_url()?>/assets/css/animate.css">
-      <script src="<?php echo base_url()?>/assets/js/app.js?v2"></script>  
-      <script src="<?php echo base_url()?>/assets/js/particles.js?v2"></script>
+      <link rel="stylesheet" href="assets/css/styles_uamistream.css?v2">
+      <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+      <link rel="stylesheet" href="assets/css/animate.css">
+      <script src="assets/js/app.js?v2"></script>  
+      <script src="assets/js/particles.js?v2"></script>
  
     </head>
 
@@ -79,7 +79,7 @@
        
        
     </div>
-    <script src="<?php echo base_url()?>/assets/js/app.js?v2"></script>
-    <script src="<?php echo base_url()?>/assets/js/particles.js?v2"></script>
+    <script src="assets/js/app.js?v2"></script>
+    <script src="assets/js/particles.js?v2"></script>
     </body>
 </html>
