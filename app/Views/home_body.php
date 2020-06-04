@@ -30,8 +30,8 @@ $colorEncabezado =$colorP2."F0";
           <img class="d-block ml-3 mt-4" src="img/UAM.png" alt="uam" style="height: 9vh">
           <h6>Casa abierta al tiempo</h6>
         </div>
-        <h6 class="mt-4 ml-2">Universida Autonoma Metropolitana Iztapalapa<br>Departamento de Ingeniería Eléctrica
-          <br>Área de redes y Telecomunicaciones
+        <h6 class="mt-4 ml-2">Universidad Autónoma Metropolitana Iztapalapa<br>Departamento de Ingeniería Eléctrica
+          <br>
         </h6>
       </div>
     </div>
@@ -46,7 +46,7 @@ $colorEncabezado =$colorP2."F0";
         La Intranet Comunitaria UAMI, es una idea que surge a partir de las necesidades que se tienen de conectividad no
         solo en la universidad y sus alrededores, sino en todo México; en este caso, la falta de conexión adecuada en
         zonas marginadas y comunidades indígenas provoca que existan muchas personas que no cuentan con el recurso de
-        Internet por falta de conexión y que hay falta de interés o pocos recursos por parte de las autoridades y
+        Internet por falta de conexión, por falta de falta de interés o pocos recursos por parte de las autoridades y
         empresas para conectar estas zonas.
         <div class="container">
           <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#demo">Leer mas</button>
@@ -62,12 +62,14 @@ $colorEncabezado =$colorP2."F0";
               <li type="disc">Permite el acceso a la información y servicios similares a los de Internet de manera
                 gratuita</li>
             </ul>
-            Al gunas de las motivaciones de este proyecto son las siguientes:
+            <h4>
+              Motivación
+            </h4>
             <ul>
               <li>Compartir contenido en zonas donde no hay Internet</li>
-              <li>Creación de aplicaciones propias, así como de hardware y software libre</li>
-              <li>Hacer investigación</li>
-              <li>Capacitación de Recursos Humanos</li>
+              <li>Aplicaciones propetarias, así como desarrollo hardware y software libre</li>
+              <li>Investigación multidisiplinaria</li>
+              <li>Formación de recursos humanos</li>
             </ul>
           </div>
         </div>
