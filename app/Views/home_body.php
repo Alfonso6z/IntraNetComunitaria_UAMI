@@ -8,8 +8,9 @@ $colorEncabezado =$colorP2."F0";
 
 <head>
   <meta charset="utf-8" name="viewport" content=" width = device-width, initial-scale=1,shrink-to-fit=no">
-  <link rel="stylesheet" href="<?php echo base_url()?>/assets/css/bootstrap.min.css">
-  <link rel="stylesheet" href="<?php echo base_url()?>/assets/css/styles_home.css">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/styles_home.css">
   <title>IntraNet</title>
 </head>
 

@@ -1,13 +1,14 @@
 <?php
 $home          = base_url();
-$fotos         = base_url()."/fotos";
-$redsocial     = base_url()."//redsocial";
+$app          = base_url()."/apps";
+$colaboradores = base_url()."/colaboradores";
 $documentos      = base_url()."/documentos";
-$uamistream    = base_url()."/uamistream";
-$videos        = base_url()."/videos";
+$fotos         = base_url()."/fotos";
 $github        = "https://github.com/IntranetComunitariaUAMI";
 $rE            = base_url()."/recursosEducativos";
-$colaboradores = base_url()."/colaboradores";
+$redsocial     = base_url()."//redsocial";
+$uamistream    = base_url()."/uamistream";
+$videos        = base_url()."/videos";
 include 'assets/colors.php';/* Paleta de colores */
 $colorNav = $colorP2."D0";
 ?>
@@ -18,8 +19,8 @@ $colorNav = $colorP2."D0";
 <head>
   <meta charset="utf-8" name="viewport" content=" width = device-width, initial-scale=1,shrink-to-fit=no">
   <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
-  <link rel="stylesheet" href="<?php echo base_url()?>/assets/css/bootstrap.min.css">
-  <link rel="stylesheet" href="<?php echo base_url()?>/assets/css/styles_home.css">
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/styles_home.css">
 </head>
 
 <body class=" m-2 imagenBack">
@@ -63,7 +64,7 @@ $colorNav = $colorP2."D0";
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
             <a class="dropdown-item menu" href=<?php echo $redsocial?>>Red Social</a>
             <div class="dropdown-divider"></div>
-            <a class="dropdown-item menu" href="#">Apps</a>
+            <a class="dropdown-item menu" href="<?php echo $app?>">Apps</a>
           </div>
         </li>
 
@@ -109,9 +110,9 @@ $colorNav = $colorP2."D0";
       </form>
     </div>
   </nav>
-  <script src="<?php echo base_url()?>/assets/js/jquery.min.js"></script>
-  <script src="<?php echo base_url()?>/assets/js/bootstrap.min.js"></script>
-  <script src="<?php echo base_url()?>/assets/js/popper.min.js"></script>
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/bootstrap.min.js"></script>
+  <script src="assets/js/popper.min.js"></script>
   <script src="https://kit.fontawesome.com/28662fa33e.js" crossorigin="anonymous"></script>
 </body>
 

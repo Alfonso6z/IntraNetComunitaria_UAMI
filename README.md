@@ -40,11 +40,28 @@ C:\xampp\htdocs
 ```
 /opt/lampp/htdocs
 ```
+Colocar los permisos necesarios para su visualización y ejecución del sitio web 
+```bash
+chmod 777 IntraNetComunitaria_UAMI/* && chmod 777 IntraNetComunitaria_UAMI/writable/* && chmod 777 IntraNetComunitaria_UAMI/writable/cache/*
+```
 #### Linux Apache2
 
 ```
 /var/www/html
 ```
+Colocar los permisos necesarios para su visualización y ejecución del sitio web 
+```bash
+chmod 777 IntraNetComunitaria_UAMI/* && chmod 777 IntraNetComunitaria_UAMI/writable/* && chmod 777 IntraNetComunitaria_UAMI/writable/cache/*
+```
+
+
+#### Docker
+
+Si deseas montar el proyecto en un contendor Docker seguir las siguientes instrucciones: 
+[Instrucciones Docker](docker.md)
+
+
+
 
 _Las rutas pueden ser diferentes dependiendo de su instalción, distro (linux) o SO, la carpeta del proyecto tendrá que estar en su local host_
 
@@ -65,10 +82,11 @@ _Las herramientas utilizadas para este proyecto son las siguintes_
 ## Colaboradores ✒️
 
 * **[Alfonso González Zempoalteca](https://github.com/Alfonso6z)** - *Trabajo Inicial*
+* **[Tonalli Contreras Sandoval](https://github.com/tonacs)** - *Montar sitio en docker*
 
 ### contribuyentes:
 * Aún hay que aportar mucho a este proyecto, se mencionará a cada uno de los desarrolladores que contribuyan con nuevas funciones o que las complementen.
 
 ## Licencia 📄
 
-Este proyecto está bajo la Licencia MTI - mira el archivo [license](license.md) para detalles.
+Este proyecto está bajo la Licencia MIT - mira el archivo [license](license.md) para detalles.
