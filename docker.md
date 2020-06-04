@@ -30,7 +30,7 @@ Si usted no tiene docker en su equipo, siga las siguientes instrucciones
 
 3.Colocar la siguiente instrucción
 ```bash
-docker run -dti -p 8080:80 --name intranetuami -v "$PWD":/opt/lampp/htdocs cswl/xampp
+docker run -dti -p 80:80 --name intranetuami -v "$PWD":/opt/lampp/htdocs cswl/xampp
 
 ```
 
@@ -42,7 +42,7 @@ En donde:
 * --name parámetro para darle un nombre al contenedor, puede ponerle cualquiera, en este caso se colocó intranetuami
 * -v Indica el parámetro de volúmen en donde la carpeta en el contenedor `/opt/lampp/htdocs` estará mapeada a la carpeta actual donde se ejecutan las instrucciones `"$PWD"`
 * cswl/xampp es el nombre de la imagen con la cuál se creará el contenedor
-* -p mapea el puerto 80 de docker al puerto 8080 de nuestro equipo
+* -p mapea el puerto 80 de docker al puerto 80 de nuestro equipo host
 
 4.Si el proceso fue realizado con éxito y sin errores, obtendremos un ID
 
