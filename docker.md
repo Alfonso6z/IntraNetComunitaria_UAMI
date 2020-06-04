@@ -59,7 +59,7 @@ En donde:
 
 7.Posicionarse en la carpeta /opt/lampp/htdocs
 ```bash
- cd opt/lampp/docs
+ cd opt/lampp/htdocs
 ```
 
 
