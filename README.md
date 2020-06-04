@@ -8,7 +8,7 @@
 
 En este repositorio puedes encontrar el código fuente (multimedia y scripts) del sitio web **IntraNetUAMI**, el cual fue desarrollado principalmente para el proyecto **Intranet Comunitaria**
 
-* [IntranetUAMI](<!-- qui un link principal-->) - Para saber mas entrar a este link  -->
+* [IntranetUAMI](<!-- qui un link principal-->) - Para saber mas entrar a este link
 
 > © Universidada Autonoma Metropolitana Iztapalapa
 <!--  -->
