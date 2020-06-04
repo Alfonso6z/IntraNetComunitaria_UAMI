@@ -69,7 +69,7 @@ En donde:
 chmod 777 IntraNetComunitaria_UAMI/* && chmod 777 IntraNetComunitaria_UAMI/writable/* && chmod 777 IntraNetComunitaria_UAMI/writable/cache/*
 ```
 
-Si todo fue realizado con éxito, ir al navegador y colocar en la barra de direcciones`localhost:8080/IntraNetComunitaria_UAMI` y se podrá visualizar el contenido del sitio web
+Si todo fue realizado con éxito, ir al navegador y colocar en la barra de direcciones`localhost/IntraNetComunitaria_UAMI` y se podrá visualizar el contenido del sitio web
 
 
 
