@@ -21,7 +21,7 @@ class App extends BaseConfig
 	| environments.
 	|
 	*/
-	public $baseURL = 'http://localhost/IntraNetComunitaria_UAMI/';
+	public $baseURL = 'https://intranet-uami.herokuapp.com/';
 
 	/*
 	|--------------------------------------------------------------------------
